@@ -61,7 +61,8 @@ class Desk:
             self.message['text'] = 'La suma de las 2 variables es: {}'.format(resultado)
         else:
             self.message['text'] = 'los campos son requeridos'
-            # Aqui resta las cosas esas
+            # Aqui resta las numeros
+            
     def restar(self):
         if self.validation():
             resultado = float( self.var1.get() ) - float( self.var2.get() )
